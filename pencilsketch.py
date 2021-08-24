@@ -40,5 +40,5 @@ else:
     st.write("Output Photo ----->")
     st.image(final_sketch , use_column_width=True)
 
-footer = '<a href="https://github.com/khushi-purwar/Pencil-Sketcher-App-using-ML/blob/master/pencilsketch.py">Click Here</a> to view the source code'
+footer = "<a href='https://github.com/khushi-purwar/Pencil-Sketcher-App-using-ML/blob/master/pencilsketch.py' style='margin-top:20px'>Click Here</a> to view the source code"
 st.write(footer, unsafe_allow_html=True)
