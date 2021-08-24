@@ -25,7 +25,7 @@ def pencilsketch(input_image):
     return final_image
 
 st.title("PencilSketcher App")
-description = '<p style=" color:Blue; font-size: 20px;">This web app will help to convert your photos to realistic Pencil Sketches. Try it now!</p>'
+description = '<p style=" color:Blue; font-size: 18px;">This web app will help to convert your photos to realistic Pencil Sketches. Try it now!</p>'
 st.markdown(description, unsafe_allow_html=True)
 
 file_image = st.sidebar.file_uploader("Choose your photo!", type=['jpg','png','jpeg'])
